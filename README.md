@@ -22,3 +22,6 @@ Go to the link "http://localhost:5678/api-docs/" on your browser.
 
 To view video:
 https://youtu.be/k66PDcV7lLg
+
+Gif for video: 
+https://drive.google.com/file/d/1LYaGC128hAMDIDJSTb6gmPbSsmjfTP3W/view?usp=share_link
