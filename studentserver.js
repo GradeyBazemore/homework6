@@ -367,7 +367,12 @@ app.get('/students/search/lastname', function (req, res) {
 
 
 
-app.listen(5678); //start the server
+app.listen(3000); //start the server
 console.log('Server is running...');
-console.log('Webapp:   http://localhost:5678/')
-console.log('API Docs: http://localhost:5678/api-docs')
+//console.log('Webapp:   http://localhost:5678/')
+//console.log('API Docs: http://localhost:5678/api-docs')
+
+const port = process.env.PORT || 3000; // Use port 3000 if $PORT is not set
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
