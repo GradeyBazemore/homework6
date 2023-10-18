@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUT: Update a Student by ID</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>PUT: Update a Student by ID</h1>
+    <p>Use this endpoint to update a student by their ID.</p>
+
+    <h2>Request:</h2>
+    <pre>
+        <code>
+HTTP Method: PUT
+Endpoint: /students/{student_id}
+Content-Type: application/json
+Request Body:
+{
+    "first_name": "Updated First Name",
+    "last_name": "Updated Last Name",
+    "gpa": 3.9,
+    "enrolled": false
+}
+        </code>
+    </pre>
+
+    <h2>Response:</h2>
+    <pre>
+        <code>
+Status Code 200 - OK
+Response Body:
+{
+    "message": "Student with ID {student_id} updated successfully."
+}
+        </code>
+    </pre>
+</body>
+</html>

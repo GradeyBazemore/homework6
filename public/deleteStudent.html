@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELETE: Delete a Student by ID</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>DELETE: Delete a Student by ID</h1>
+    <p>Use this endpoint to delete a student by their ID.</p>
+
+    <h2>Request:</h2>
+    <pre>
+        <code>
+HTTP Method: DELETE
+Endpoint: /students/{student_id}
+        </code>
+    </pre>
+
+    <h2>Response:</h2>
+    <pre>
+        <code>
+Status Code 200 - OK
+Response Body:
+{
+    "message": "Student with ID {student_id} deleted successfully."
+}
+        </code>
+    </pre>
+</body>
+</html>
