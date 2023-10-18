@@ -24,4 +24,5 @@ To view video:
 https://youtu.be/k66PDcV7lLg
 
 Gif for video: 
-https://drive.google.com/file/d/1LYaGC128hAMDIDJSTb6gmPbSsmjfTP3W/view?usp=share_link
+https://drive.google.com/file/d/1HFR7ayklFt8s0OT5NxYiB6uc2hbs2SQe/view?usp=share_link
+
