@@ -15,7 +15,10 @@ To develop/debug server:
 >nodemon studentserver.js
 
 To view studentserver webpage:
-"http://localhost:5678/"
+"https://hw6-bdc1ef3bc175.herokuapp.com/?"
 
 To view studentserver api-docs:
 Go to the link "http://localhost:5678/api-docs/" on your browser.
+
+To view video:
+https://youtu.be/k66PDcV7lLg
